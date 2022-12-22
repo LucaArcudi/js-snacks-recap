@@ -19,7 +19,8 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      
+      oddNumbers : [],
+      evenNumbers : []
     }
   }
 }).mount('#app')
